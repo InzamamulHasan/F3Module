@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 id="ip">My Public IP ADDRESS :</h1>
+        <button id="getdata">Get Data</button>
+    </div>
+    <div id="host"></div>
+    <div id="map">
+        <div>
+            <iframe id="loc" ></iframe>
+        </div>
+        
+    </div>
+    
+    <div id="information">
+        <h1 id="timezone"></h1>
+        <h1 id="date"></h1>
+        <h1 id="pin"></h1>
+        <h1 id="mess"></h1>
+    </div>
+
+    <div id="filter">
+        <input type="text" placeholder="Filter" id="fil">
+        <span class="material-symbols-outlined search">
+            search
+        </span>
+
+    </div>
+    <div id="office_container"></div>
+    
+    <script src="./script.js"></script>
+    
+</body>
+</html>
